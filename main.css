@@ -28,7 +28,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #003366;
+	color: linear-gradient(white, #0099ff)
 }
 
 .active {
