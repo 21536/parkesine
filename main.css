@@ -1,15 +1,24 @@
 body {
-	color: #ffffff;
 	background-image: linear-gradient(white, #0099ff);
 	font-size: 100%;
 }
 
+h1 {
+    color: #ff9900;
+}
+
+h2 {
+    color: #ff6600;
+
+}
+
 ul {
-    list-style-type: none;
+    list-style-type: square;
     margin: 0;
     padding: 0;
     overflow: hidden;
-	background-image: linear-gradient(to right, #fffffff, #66ff33);
+    text-align: center;
+
 }
 
 li {
@@ -20,17 +29,22 @@ li {
 
 li a {
     display: block;
-    color: linear-gradient(white, #0099ff);
-    text-align: center;
+    background-image: linear-gradient(white, #0099ff);
+    text-align: middle;
     padding: 15px 20px
-    text-decoration: none;
-    margin: 0px
+    text: none;
+    margin: 0px;
 }
 
-li a:hover:not(.active) {
-	color: linear-gradient(white, #0099ff)
+li a:hover {
+	background-image: linear-gradient(white, #00ffff);
 }
+
 
 .active {
     background-color: #ccffff;
+}
+
+.thetitle {
+    color: #ff0000;
 }
